@@ -1,1 +1,137 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Figtree";
+  src: url("fonts/static/Figtree-ExtraBold.ttf") format("ttf");
+  font-weight: 800;
+  font-style: extra-bold;
+}
+@font-face {
+  font-family: "Figtree";
+  src: url("fonts/static/Figtree-SemiBold.ttf") format("ttf");
+  font-weight: 600;
+  font-style: semi-bold;
+}
+@font-face {
+  font-family: "Figtree";
+  src: url("fonts/Figtree-Italic-VariableFont_wght.ttf") format("ttf");
+  font-style: italic;
+}
+@font-face {
+  font-family: "Figtree";
+  src: url("fonts/Figtree-VariableFont_wght.ttf") format("ttf");
+  font-style: normal;
+}
+body {
+  font-family: "Figtree", sans-serif;
+  background-color: #F4D04E;
+  color: #111;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.blog-preview-card {
+  max-width: 24rem;
+  min-width: 20.4375rem;
+  padding: 1.5rem;
+  margin: 1.5rem;
+  background-color: #fff;
+  box-shadow: 8px 8px 0px 0px #000;
+  border-radius: 1.25rem;
+  border: #111;
+  display: flex;
+  flex-direction: column;
+}
+
+.article-header-img {
+  order: 1;
+  width: 100%;
+  height: 12.5rem;
+  border-radius: 1.25rem;
+  margin-bottom: 1.5rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.topic-tags-list {
+  order: 2;
+  list-style-type: none;
+}
+
+.article-title {
+  order: 5;
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+
+.topic-tag {
+  order: 3;
+  border: none;
+  padding: 0.25rem 0.75rem;
+  background-color: #F4D04E;
+  border-radius: 0.25rem;
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+
+.article-p {
+  order: 6;
+  margin: 0.75rem 0 1.5rem 0;
+  font-size: 0.875rem;
+  line-height: 150%;
+  color: #7F7F7F;
+}
+
+.published-h3 {
+  order: 4;
+  margin: 0.75rem 0;
+  font-size: 0.75rem;
+}
+
+.article-author {
+  order: 7;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.author-avatar {
+  width: 2rem;
+  height: 2rem;
+}
+
+.author-name {
+  font-size: 0.875rem;
+  font-weight: 800;
+  margin-left: 0.75rem;
+}
+
+.attribution {
+  font-size: 8px;
+  font-style: italic;
+  position: fixed;
+  bottom: 5px;
+  right: 0;
+  left: 0;
+}
+
+.attribution a {
+  color: #fff;
+}
+
+@media (min-width: 420px) {
+  .article-p {
+    font-size: 1rem;
+  }
+}/*# sourceMappingURL=style.css.map */
