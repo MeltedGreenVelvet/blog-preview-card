@@ -14,6 +14,7 @@ TYPOGRAPHY
   order: 5;
   font-size: 1.25rem;
   font-weight: 800;
+  line-height: 150%;
 }
 
 .article-title:focus,
@@ -35,6 +36,7 @@ TYPOGRAPHY
   margin: 0.75rem 0;
   font-size: 0.75rem;
   font-weight: 500;
+  line-height: 150%;
 }
 
 .author-name {
@@ -110,18 +112,6 @@ IMAGES/SVGs
 
 /*
 ---------------
-TRANSITIONS
----------------
-*/
-.topic-tag-btn,
-.article-link,
-.article-author-link,
-attribution a {
-  transition: all 0.35s ease-in-out;
-}
-
-/*
----------------
 BUTTONS/LINKS
 ---------------
 */
@@ -145,6 +135,7 @@ BUTTONS/LINKS
   padding: 0.25rem 0.75rem;
   border-radius: 0.25rem;
   font-size: 0.75rem;
+  line-height: 150%;
 }
 
 .topic-tag-btn:focus,
@@ -187,6 +178,18 @@ BUTTONS/LINKS
 .attribution a:hover,
 .attribution a:active {
   color: #7F7F7F;
+}
+
+/*
+---------------
+TRANSITIONS
+---------------
+*/
+.topic-tag-btn,
+.article-link,
+.article-author-link,
+.attribution a {
+  transition: all 0.2s ease-in-out;
 }
 
 /*
